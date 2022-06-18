@@ -1,62 +1,58 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Bookstore
 
-# Project Name
-
-> Description the project.
+> Bookstore is a website that allows:
+> * Displaying a list of books.
+> * Adding a book.
+> * Removing a selected book.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- React
+- HTML5
+- CSS3
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- A web browser (like Safari, Google Chrome, Internet Explorer...).
+- A code editor (like Webstorm, Atom, VScode...).
+
 ### Setup
 
-### Install
+To setup the project locally: clone the repository using:
 
-### Usage
+```
+https://github.com/felixodette/bookstore.git
+```
 
-### Run tests
+### Install dependencies
 
-### Deployment
+run : `npm install`
 
+### Build the app
 
+run: `npm run build`
+
+### Run the app
+
+run: `npm start`
 
 ## Authors
 
-👤 **Author1**
+👤 **Manel Hammouche**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@felixodette](https://github.com/felixodette)
+- Twitter: [@Odette3000](https://twitter.com/Odette3000)
+- LinkedIn: [Felix Odete](https://www.linkedin.com/in/felixodete/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -64,9 +60,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
 
 ## 📝 License
 
