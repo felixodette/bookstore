@@ -1,10 +1,10 @@
-import './App.css';
 import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Booklist from './components/Booklist';
-import Category from './components/Category';
+import './App.css';
+import BooksList from './components/BooksList';
+import Categories from './components/Categories';
 import Header from './components/Header';
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Booklist />} />
-          <Route path="/Category" element={<Category />} />
+          <Route path="/" element={<BooksList />} />
+          <Route path="/categories" element={<Categories />} />
         </Routes>
       </main>
     </>
