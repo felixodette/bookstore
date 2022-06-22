@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Book from './Book';
 import Form from './Form';
 
-const BookList = () => {
+const Booklist = () => {
   const [bookList, setBookList] = useState([
     {
       id: 1,
