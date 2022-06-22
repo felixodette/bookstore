@@ -6,7 +6,7 @@ const rootReducer = combineReducers({
   books: booksReducer,
   categories: categoriesReducer,
 });
-/* eslint-disable no-underscore-dangle */
+
 const store = createStore(rootReducer);
 
 export default store;
