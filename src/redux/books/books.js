@@ -1,4 +1,4 @@
-const BASE_URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/2kLjGe8d2F6O626umTAc/books';
+const baseURL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/kHtQHkSgi4TSFEWzhSpl/books';
 
 // Actions
 const ADD_BOOK = 'bookstore/booksReducer/ADD_BOOK';
@@ -20,7 +20,7 @@ export default function booksReducer(state = [], action = {}) {
 
 // Action Creators
 const addBook = (book) => async (dispatch) => {
-  await fetch(BASE_URL, {
+  await fetch(baseURL, {
     method: 'POST',
     body: JSON.stringify(book),
     headers: {
@@ -31,7 +31,7 @@ const addBook = (book) => async (dispatch) => {
 };
 
 const displayBooks = () => async (dispatch) => {
-  await fetch(BASE_URL)
+  await fetch(baseURL)
     .then((res) => res.json())
     .then((books) => {
       const booksArray = [];
@@ -48,7 +48,7 @@ const displayBooks = () => async (dispatch) => {
 };
 
 const removeBook = (bookID) => async (dispatch) => {
-  await fetch(`${BASE_URL}/${bookID}`, {
+  await fetch(`${baseURL}/${bookID}`, {
     method: 'DELETE',
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
