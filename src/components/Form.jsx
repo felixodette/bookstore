@@ -18,7 +18,7 @@ const Form = () => {
   };
 
   const changeCategory = (e) => {
-    setAuthor(e.target.value);
+    setCategory(e.target.value);
   };
 
   const formSubmit = (e) => {
@@ -41,9 +41,27 @@ const Form = () => {
   return (
     <div id="form-container">
       <form onSubmit={formSubmit}>
-        <input type="text" id="title" placeholder="Book title" value={title} onChange={changeTitle} />
-        <input type="text" id="author" placeholder="Book author" value={author} onChange={changeAuthor} />
-        <input type="text" id="category" placeholder="Book category" value={category} onChange={changeCategory} />
+        <input
+          type="text"
+          id="title"
+          placeholder="Book title"
+          value={title}
+          onChange={changeTitle}
+        />
+        <input
+          type="text"
+          id="author"
+          placeholder="Book author"
+          value={author}
+          onChange={changeAuthor}
+        />
+        <input
+          type="text"
+          id="category"
+          placeholder="Book category"
+          value={category}
+          onChange={changeCategory}
+        />
         <button type="submit" id="add-book">
           ADD BOOK
         </button>

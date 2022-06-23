@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import booksReducer from './books/books';
