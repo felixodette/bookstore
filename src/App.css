@@ -318,3 +318,22 @@ hr {
     margin-right: 15px;
   }
 }
+
+.Oval {
+  width: 2.013rem;
+  height: 2.013rem;
+  margin: 0 0 0 41.5rem;
+  padding: 0.875rem;
+  border: solid 1px #e8e8e8;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.Mask {
+  background-color: #0290ff;
+}
+
+.fas {
+  font-size: 30px;
+  color: var(--primary-color);
+}
